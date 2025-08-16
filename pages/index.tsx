@@ -14,7 +14,7 @@ const Home: React.FC =()=>{
 const [activeFilter, setActiveFilter] = useState<string>("");
 
   return(
-    <div className="p-6">
+    <div className="mt-8">
       {/* Headline */}
       <h2 className="text-2xl font-bold mb-">Find your favorite place here! <br />
       <span className="text-lg font-normal">

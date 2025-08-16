@@ -2,11 +2,11 @@
 const Header: React.FC =()=>{
     return(
 
-        <header>
-            <div>
+        <header className="flex justify-center items-center bg-white shadow-md">
+            <div className="flex gap-5">
         {/* logo */}
                 <div>
-                    <img src="" alt="logo" />
+                    <img src="" alt="" />
                 </div>
         
         {/* search bar */}
@@ -17,12 +17,12 @@ const Header: React.FC =()=>{
                      />
                 </div>
         {/* sign up button */}
-                <div>
+                <div className="space-x-3">
                     <button>sign Up</button>
                     <button>Sign In</button>
                 </div>                 
         {/*  accommodation types*/}
-                <nav>
+                <nav className="space-x-4">
                     <button>Rooms </button> 
                     <button>Mansions </button> 
                     <button>CountrySide </button> 
